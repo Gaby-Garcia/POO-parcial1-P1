@@ -1,10 +1,31 @@
 package Practica1;
-
+import java.util.Scanner;
 public class MetodoMain1 {
     
     public static void main(String[] args){
-        Practica1G org = new Practica1G();
+     Scanner sc = new Scanner(System.in);
+     int numfilas;
+        System.out.print("¿Cuantas filas desea tener en la piramide? ");
+        numfilas= sc.nextInt();
         
-        org.Piramide1(0);
-    }
+        for (int i = 0; i < numfilas; i++) {
+            for (int cant = 0; cant <= i; cant++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        
+                
+                
+                
+                
+                
+                
+                
+                
+        
+        
+        
+        
+}
 }
