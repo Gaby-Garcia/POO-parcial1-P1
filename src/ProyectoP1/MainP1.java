@@ -128,6 +128,7 @@ while(cant!=4){
                             break;
                         case 2:
                              try{
+                                 
                                  System.out.print("Ingrese el nombre del cliente a buscar: ");
                                  nombre=(bf.readLine());
                              boolean nombrecliente=false;
@@ -143,7 +144,7 @@ while(cant!=4){
                                 nombrecliente=true;
                               }
                             }
-                           }
+                             }
                               catch(Exception e){
                                  System.out.println("El dato ingresado no es valido :( ");
                              }
