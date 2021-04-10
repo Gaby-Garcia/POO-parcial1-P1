@@ -10,7 +10,7 @@ public class MainP1 {
         BufferedReader bf= new BufferedReader(new InputStreamReader(System.in));
     Proyecto[] datos;
     int n=1;
-        System.out.println("TIENDAS LoXXO");
+        System.out.println("TIENDAS LoXXO PROYECTO PRIMER PARCIAL");
         System.out.print("¿De que tamaño quiere su cartera de clientes?: ");
         n= poo.nextInt();
         
